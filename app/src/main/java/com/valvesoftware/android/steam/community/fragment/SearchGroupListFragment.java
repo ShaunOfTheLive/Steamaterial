@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.valvesoftware.android.steam.community.fragment.SearchGroupListFragment.SearchGroupInfoDB;
 
 public class SearchGroupListFragment extends BaseSearchResultsListFragment<GroupInfo, SearchGroupInfoDB> {
     private static final String SearchFriendInfoDB_URI;

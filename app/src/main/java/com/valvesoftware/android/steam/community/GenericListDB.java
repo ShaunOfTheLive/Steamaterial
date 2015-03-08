@@ -19,6 +19,7 @@ import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.valvesoftware.android.steam.community.GenericListDB.GenericListItem.RequestForAvatarImage;
 
 public abstract class GenericListDB extends BroadcastReceiver {
     protected boolean m_bAutoRefreshIfDataMightBeStale;

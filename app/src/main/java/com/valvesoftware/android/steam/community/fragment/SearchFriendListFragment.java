@@ -32,6 +32,7 @@ import java.util.Iterator;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.valvesoftware.android.steam.community.fragment.SearchFriendListFragment.SearchFriendInfoDB;
 
 public class SearchFriendListFragment extends BaseSearchResultsListFragment<FriendInfo, SearchFriendInfoDB> {
     private static final String SearchFriendInfoDB_URI;
