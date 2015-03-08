@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/table_cell_background" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_weight="0.58">
+        <TextView android:id="@id/shout_out" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="This is a shout out to those who have donated. It helps me a lot, it brings a smile to my face, to know that people appreciate the work which I do, that they enjoy or like using the app. It makes me feel good. Thanks to those who have donated or will donate, thank you." />
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/table_cell_background" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/donor_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Donors" />
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/table_cell_background" android:layout_width="fill_parent" android:layout_height="312.0dip">
+        <LinearLayout android:background="@drawable/table_cell_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/donor_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cole" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Connor/Desktop/Holofication%20Nation/Development/APK%20Tool/steam12/app/src/main/res/layout/donor_list.xml -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/notLoggedIn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="bottom|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0sp" android:text="@string/Login_For_Friends" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0sp" android:text="@string/Login" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/loggedIn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="horizontal" android:id="@id/list_search_bar" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:layout_gravity="center_vertical" android:id="@id/list_search_bar_text" android:paddingRight="50.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/SearchBar_Tap_to_Search_Hint" android:singleLine="true" android:maxLength="255" android:inputType="textAutoCorrect|textShortMessage" android:imeOptions="actionSearch|flagNoEnterAction" style="@style/steam_edittext" />
+            <Button android:layout_gravity="center|right" android:id="@id/list_search_bar_button" android:background="@drawable/icon_up" android:layout_width="30.0sp" android:layout_height="30.0sp" android:layout_marginRight="8.0sp" android:text=" " />
+        </FrameLayout>
+        <ListView android:id="@android:id/list" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/black" android:dividerHeight="0.0px" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/navigation_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/almost_fully_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/navFragment_TitleButton" android:paddingLeft="13.0sp" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <include android:id="@id/navFragment_TitleItem" layout="@layout/navigation_list_item" />
+                </FrameLayout>
+            </FrameLayout>
+            <ListView android:id="@android:id/list" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@color/almost_fully_transparent" android:dividerHeight="0.0px" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/almost_fully_transparent" android:layout_weight="1.0" />
+        <Button android:id="@id/navFragment_ContentButton" android:background="@color/almost_fully_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text=" " android:layout_weight="3.0" />
+    </LinearLayout>
+</FrameLayout><!-- From: file:/C:/Users/Connor/Desktop/Holofication%20Nation/Development/APK%20Tool/steam12/app/src/main/res/layout/navigation_fragment.xml -->

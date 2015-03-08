@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/chat_options_layout" android:background="@color/chat_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="right" android:id="@id/chat_options_clear_history_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Chat_clear_history" style="@style/steam_btn_default" />
+    </FrameLayout>
+    <ListView android:scrollbarStyle="insideInset" android:id="@id/chat_view_contents" android:background="@color/chat_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/chat_background" android:divider="@color/chat_background" android:dividerHeight="0.0px" android:fillViewport="true" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/chat_view_status" android:background="#ff660000" android:layout_width="fill_parent" android:layout_height="25.0sp" android:text="" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/chat_say_layout" android:background="@color/chat_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:scrollbarAlwaysDrawVerticalTrack="false" android:gravity="bottom" android:id="@id/chat_view_say_text" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:hint="@string/Chat_Tap_to_Compose_Hint" android:ems="15" android:maxLength="10000" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="normal|actionUnspecified" />
+        <Button android:gravity="center" android:layout_gravity="bottom" android:id="@id/chat_view_say_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Send" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:fillAfter="true" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:fromXDelta="0.0%" android:toXDelta="75.0%" android:fromYDelta="0.0" android:toYDelta="0.0" />
+</set><!-- From: file:/C:/Users/Connor/Desktop/Holofication%20Nation/Development/APK%20Tool/steam12/app/src/main/res/anim/splitview_content_hide.xml -->

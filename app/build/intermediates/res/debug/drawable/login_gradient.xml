@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#ff050607" android:endColor="#ff272d33" android:type="linear" android:centerX="0.1" android:centerY="0.1" android:gradientRadius="350.0" />
+</shape><!-- From: file:/C:/Users/Connor/Desktop/Holofication%20Nation/Development/APK%20Tool/steam12/app/src/main/res/drawable/login_gradient.xml -->

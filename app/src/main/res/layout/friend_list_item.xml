@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/category_label" android:id="@id/label" android:background="@drawable/table_cell_section" android:paddingLeft="8.0sp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="YyYyYyYy" />
+    <LinearLayout android:background="@drawable/table_cell_background" android:layout_width="fill_parent" android:layout_height="46.0sp">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="40.0sp" android:layout_height="40.0sp" android:layout_marginLeft="4.0sp" android:layout_marginRight="4.0sp">
+            <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="36.0sp" android:layout_height="36.0sp" />
+            <ImageView android:layout_gravity="center" android:id="@id/avatar_frame" android:layout_width="40.0sp" android:layout_height="40.0sp" android:src="@drawable/avatar_frame_offline" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="bottom" android:id="@id/name" android:paddingBottom="1.0sp" android:layout_width="fill_parent" android:layout_height="26.0sp" android:text="YyYyYyYy" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="top" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="19.0sp" android:text="YyYyYyYy" android:singleLine="true" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/friendItemAreaAroundChatButton" android:layout_width="48.0sp" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center|right" android:id="@id/chatButton" android:background="@drawable/chat_button_offline" android:layout_width="fill_parent" android:layout_height="40.0sp" android:layout_marginLeft="4.0sp" android:layout_marginRight="4.0sp" android:text=" " />
+            <ImageView android:layout_gravity="center|right" android:id="@id/imageChevron" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0sp" android:src="@drawable/table_cell_chevron" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/steamid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="TextView" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
