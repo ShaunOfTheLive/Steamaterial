@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="5.0dip" />
-    <gradient android:startColor="#ff191919" android:endColor="#ff191919" android:angle="270.0" android:type="linear" android:centerX="0.2" android:centerY="0.3" />
-</shape><!-- From: file:/C:/Users/Connor/Desktop/Holofication%20Nation/Development/APK%20Tool/steam12/app/src/main/res/drawable/navigation_gradient.xml -->
