@@ -6,7 +6,6 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:1.0.0'
         apply plugin: 'java'
-        compile "com.android.support:support-v4:21.0.0"
     }
 }
 
