@@ -10,8 +10,8 @@ public class AndroidUtils {
         try {
             v.setText(txt);
         } catch (Exception e) {
-            len = txt.length();
             int len;
+            len = txt.length();
             if (len > 0) {
                 try {
                     char[] arr = new char[len];
